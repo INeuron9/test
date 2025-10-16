@@ -697,8 +697,8 @@
           },
           {
             "position": {
-              "x": 1160,
-              "y": 150
+              "x": 1170,
+              "y": 160
             },
             "size": {
               "width": 112.5,
@@ -1609,6 +1609,51 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "c59c15f1-9a48-4e7a-93d5-f20fcb1e54af",
+            "source": {
+              "x": 1150,
+              "y": 440
+            },
+            "target": {
+              "x": 1040,
+              "y": 360
+            }
+          },
+          {
             "position": {
               "x": -180,
               "y": 250
@@ -1889,6 +1934,30 @@
               "hasOpenThreats": false
             },
             "zIndex": 14
+          },
+          {
+            "position": {
+              "x": 1152,
+              "y": 410
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "fake delivery\n(repudiation)"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "6a47a6c5-45ea-4d4e-ad5d-ad8e2891ec93",
+            "data": {
+              "type": "tm.Text",
+              "name": "fake delivery\n(repudiation)",
+              "hasOpenThreats": false
+            },
+            "zIndex": 15
           }
         ],
         "description": "labmid"
