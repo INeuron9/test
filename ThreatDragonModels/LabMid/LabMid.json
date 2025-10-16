@@ -19,8 +19,60 @@
         "cells": [
           {
             "position": {
-              "x": 260,
-              "y": 190
+              "x": 121.99999999999943,
+              "y": 70.00000000000165
+            },
+            "size": {
+              "width": 430,
+              "height": 270
+            },
+            "attrs": {
+              "label": {
+                "text": "Customer Trust Boundary"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "6c225e72-ee6f-45cb-ae77-d8b4fc76aec9",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Customer Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 741,
+              "y": 30
+            },
+            "size": {
+              "width": 410,
+              "height": 320
+            },
+            "attrs": {
+              "label": {
+                "text": "Staff Trust Boundary"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "4001fbc9-7ea8-43cc-8cd9-bd21466532fb",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Staff Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 250,
+              "y": 180
             },
             "size": {
               "width": 112.5,
@@ -136,8 +188,8 @@
           },
           {
             "position": {
-              "x": 630,
-              "y": 30
+              "x": 620,
+              "y": 50
             },
             "size": {
               "width": 90,
@@ -256,7 +308,7 @@
           },
           {
             "position": {
-              "x": 530,
+              "x": 600,
               "y": 180
             },
             "size": {
@@ -379,8 +431,8 @@
           },
           {
             "position": {
-              "x": 410,
-              "y": 320
+              "x": 430,
+              "y": 360
             },
             "size": {
               "width": 90,
@@ -619,8 +671,8 @@
           },
           {
             "position": {
-              "x": 880,
-              "y": 300
+              "x": 900,
+              "y": 270
             },
             "size": {
               "width": 112.5,
@@ -736,8 +788,8 @@
           },
           {
             "position": {
-              "x": 958,
-              "y": 130
+              "x": 948,
+              "y": 60
             },
             "size": {
               "width": 120,
@@ -902,7 +954,12 @@
               "cell": "6c4b6639-3b0d-4c6f-b6dd-69b024ee2e62",
               "port": "95666230-de49-418d-b925-4cd028f2b1ec"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 430,
+                "y": 100
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -994,7 +1051,12 @@
               "cell": "d942086f-8769-44a7-b01b-5a6caf9550d7",
               "port": "3c3b8e16-0a22-4770-92c6-d1f42cd3a2f7"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 610,
+                "y": 350
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1178,7 +1240,12 @@
               "cell": "6c4b6639-3b0d-4c6f-b6dd-69b024ee2e62",
               "port": "f2103fe0-5da9-4dd5-b21c-958431ecdfab"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 790,
+                "y": 210
+              }
+            ]
           },
           {
             "shape": "flow",
