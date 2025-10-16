@@ -1441,57 +1441,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "all \ncustomer-level\naccesses",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "all \ncustomer-level\naccesses"
-            ],
-            "id": "0db8f68a-13c4-4259-8684-ecd6c31d3c3b",
-            "source": {
-              "cell": "8b6f9546-e23d-437c-bbaa-1d1e1666ce91",
-              "port": "865567eb-14cb-4906-8905-17bbe27df7b0"
-            },
-            "target": {
-              "cell": "293a3dc4-343e-40e5-b929-d11c3b121e17",
-              "port": "171ab882-7b9c-488e-99a5-bf347004cbd5"
-            },
-            "vertices": [
-              {
-                "x": -10,
-                "y": 190
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "",
               "description": "",
               "outOfScope": false,
@@ -1654,17 +1603,68 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "all \ncustomer-level\naccesses",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "all \ncustomer-level\naccesses"
+            ],
+            "id": "0db8f68a-13c4-4259-8684-ecd6c31d3c3b",
+            "source": {
+              "cell": "8b6f9546-e23d-437c-bbaa-1d1e1666ce91",
+              "port": "0407f33f-3b1a-4af2-8639-89272ede2911"
+            },
+            "target": {
+              "cell": "293a3dc4-343e-40e5-b929-d11c3b121e17",
+              "port": "171ab882-7b9c-488e-99a5-bf347004cbd5"
+            },
+            "vertices": [
+              {
+                "x": -10,
+                "y": 110
+              }
+            ]
+          },
+          {
             "position": {
-              "x": -180,
-              "y": 250
+              "x": -230.00000000000003,
+              "y": -19.999999999997954
             },
             "size": {
-              "width": 120,
+              "width": 300,
               "height": 50
             },
             "attrs": {
               "text": {
-                "text": "Fake customer \n(spoofing)"
+                "text": "Fake customer \n(spoofing)\nAn attacker can misuse general cusotmer rights"
               },
               "body": {
                 "stroke": "#333333",
@@ -1760,7 +1760,7 @@
             "zIndex": 11,
             "data": {
               "type": "tm.Actor",
-              "name": "Fake customer \n(spoofing)",
+              "name": "Fake customer \n(spoofing)\nAn attacker can misuse general cusotmer rights",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1772,16 +1772,16 @@
           },
           {
             "position": {
-              "x": -79.99999999999997,
-              "y": 380
+              "x": -190.00000000000003,
+              "y": 379.99999999999983
             },
             "size": {
-              "width": 150,
+              "width": 260,
               "height": 50
             },
             "attrs": {
               "text": {
-                "text": "customer denies order\n(Repudiation)"
+                "text": "customer denies order\n(Repudiation)\nno accountability of customers' actions"
               },
               "body": {
                 "stroke": "#333333",
@@ -1877,7 +1877,7 @@
             "zIndex": 12,
             "data": {
               "type": "tm.Actor",
-              "name": "customer denies order\n(Repudiation)",
+              "name": "customer denies order\n(Repudiation)\nno accountability of customers' actions",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1898,7 +1898,7 @@
             },
             "attrs": {
               "text": {
-                "text": "unencrypted data leak\n(Information disclosure)"
+                "text": "unencrypted data leak\n(Information disclosure)\n\nattackers can sniff the data during transfer"
               }
             },
             "visible": true,
@@ -1907,7 +1907,7 @@
             "zIndex": 13,
             "data": {
               "type": "tm.Text",
-              "name": "unencrypted data leak\n(Information disclosure)",
+              "name": "unencrypted data leak\n(Information disclosure)\n\nattackers can sniff the data during transfer",
               "hasOpenThreats": false
             }
           },
@@ -1946,7 +1946,7 @@
             },
             "attrs": {
               "text": {
-                "text": "fake delivery\n(repudiation)"
+                "text": "fake delivery\n(repudiation)\n\nthere is no auditing system to track who initiated the fake delivery"
               }
             },
             "visible": true,
@@ -1954,7 +1954,7 @@
             "id": "6a47a6c5-45ea-4d4e-ad5d-ad8e2891ec93",
             "data": {
               "type": "tm.Text",
-              "name": "fake delivery\n(repudiation)",
+              "name": "fake delivery\n(repudiation)\n\nthere is no auditing system to track who initiated the fake delivery",
               "hasOpenThreats": false
             },
             "zIndex": 15
