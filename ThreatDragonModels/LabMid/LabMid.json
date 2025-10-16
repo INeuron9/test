@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 121.99999999999943,
-              "y": 70.00000000000165
+              "x": -8.000000000000568,
+              "y": 55
             },
             "size": {
               "width": 430,
@@ -45,8 +45,8 @@
           },
           {
             "position": {
-              "x": 720.9999999999998,
-              "y": 30.000000000002046
+              "x": 970,
+              "y": 0
             },
             "size": {
               "width": 430,
@@ -67,13 +67,6 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -100,19 +93,12 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
             "position": {
-              "x": 250,
-              "y": 180
+              "x": 120,
+              "y": 150
             },
             "size": {
               "width": 112.5,
@@ -349,7 +335,7 @@
           {
             "position": {
               "x": 600,
-              "y": 140
+              "y": 150
             },
             "size": {
               "width": 80,
@@ -711,8 +697,8 @@
           },
           {
             "position": {
-              "x": 889.75,
-              "y": 180
+              "x": 1160,
+              "y": 150
             },
             "size": {
               "width": 112.5,
@@ -828,8 +814,8 @@
           },
           {
             "position": {
-              "x": 948,
-              "y": 60
+              "x": 1220,
+              "y": 20
             },
             "size": {
               "width": 120,
@@ -996,8 +982,8 @@
             },
             "vertices": [
               {
-                "x": 430,
-                "y": 100
+                "x": 300,
+                "y": 90
               }
             ]
           },
@@ -1185,8 +1171,8 @@
             },
             "vertices": [
               {
-                "x": 880,
-                "y": 360
+                "x": 1050,
+                "y": 320
               }
             ]
           },
@@ -1328,8 +1314,8 @@
             },
             "vertices": [
               {
-                "x": 790,
-                "y": 210
+                "x": 1000,
+                "y": 170
               }
             ]
           },
@@ -1379,8 +1365,8 @@
             },
             "vertices": [
               {
-                "x": 390,
-                "y": 390
+                "x": 260,
+                "y": 380
               }
             ]
           },
