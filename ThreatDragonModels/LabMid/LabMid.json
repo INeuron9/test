@@ -67,6 +67,46 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
+              "x": 583.9999999999992,
+              "y": -49.99999999999824
+            },
+            "size": {
+              "width": 110,
+              "height": 580
+            },
+            "attrs": {
+              "label": {
+                "text": "System Trust\nBoundary"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "40956244-022d-49ce-aca3-3ca4109eaf9c",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "System Trust\nBoundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
